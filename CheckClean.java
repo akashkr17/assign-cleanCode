@@ -44,11 +44,11 @@ public class CheckClean {
     public static void main(String args[]){
 
         //initialising the array and size of the array
-        int givenArray[] = {1000, 11, 445, 1, 330, 3000}; //declaring Array
+        int array[] = {1000, 11, 445, 1, 330, 3000}; //declaring Array
         int sizeOfArray = 6;
 
         //function call for find largest and smallest number using the object of Number class
-        Number number = toFindLargestAndSmallestNumber(givenArray, sizeOfArray);
+        Number number = toFindLargestAndSmallestNumber(array, sizeOfArray);
 
         //to print the smallest and largest number into the console
         System.out.printf("\n Smallest Number : %d", number.smallestNumber);
